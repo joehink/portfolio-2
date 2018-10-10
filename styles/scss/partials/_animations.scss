@@ -1,0 +1,9 @@
+@keyframes colorize {
+  from {
+    filter: grayscale(100%)
+  }
+
+  to {
+    filter: grayscale(0%)
+  }
+}

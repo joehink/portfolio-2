@@ -1,0 +1,64 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+}
+header p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 10px 0;
+}
+header #social {
+  margin-left: auto;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+#about .profile-image-container {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .profile-image-container .profile-img {
+  width: 65%;
+}
+#about .info {
+  flex-basis: 60%;
+}
+
+@media (min-width: 950px) {
+  #about {
+    flex-direction: row;
+  }
+}
+#projects .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#projects .project {
+  display: flex;
+  flex-direction: column;
+}
+#projects .project img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #projects .project {
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 1100px) {
+  #projects .project {
+    flex-basis: 25%;
+  }
+}
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,18 @@
+#about {
+    padding: 2rem 0;
+    h2 {
+        text-align: center;
+    }
+    .info {
+        padding: 1rem;
+    }
+    .profile-img {
+        animation: colorize 3s linear;
+        border-radius: 100%;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        transition: all 1s linear;
+        &:hover {
+            filter: grayscale(100%);
+        }
+    }
+}
