@@ -17,6 +17,20 @@ header {
     }
 }
 
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    iframe {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        max-width: 560px;
+        width: 95%;
+    }
+}
+
 // About Section Layout
 #about {
     display: flex;
