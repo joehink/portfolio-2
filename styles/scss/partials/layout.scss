@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+h2 {
+  text-align: center;
+}
+
 // Header Layout
 header {
     display: flex;
@@ -17,19 +21,19 @@ header {
     }
 }
 
-#video {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-    iframe {
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        max-width: 560px;
-        width: 95%;
-    }
-}
+// #video {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     padding-bottom: 2rem;
+//     margin-bottom: 2rem;
+//     iframe {
+//         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+//         max-width: 560px;
+//         width: 95%;
+//     }
+// }
 
 // About Section Layout
 #about {
@@ -59,7 +63,7 @@ header {
     .grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
     .project {
         display: flex;
@@ -78,4 +82,10 @@ header {
             flex-basis: 25%;
         }
     }
+}
+
+@media(min-width: 1100px) {
+  h2 {
+    text-align: left;
+  }
 }

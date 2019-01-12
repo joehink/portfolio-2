@@ -34,3 +34,11 @@
         }
     }
 }
+
+@media(min-width: 1100px) {
+  #projects {
+    .project {
+      padding: 0.5rem 2rem 2rem 0;
+    }
+  }
+}
